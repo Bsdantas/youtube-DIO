@@ -1,0 +1,254 @@
+@import url("https://fonts.cdnfonts.com/css/youtube-sans");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 1440px;
+  height: 56px;
+  padding: 0px 20px;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 146px;
+  height: 24px;
+}
+
+.search-bar {
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.menu-hamburguer {
+  width: 24px;
+}
+
+.youtube-logo {
+  width: 90px;
+  height: 20px;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  height: 34px;
+}
+
+/* CONTENT */
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.main-content {
+  position: absolute;
+  width: 952px;
+  height: fit-content;
+  left: 75px;
+  top: 84px;
+}
+
+.related-content {
+  position: absolute;
+  top: 84px;
+  right: 40px;
+}
+
+.related-video {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  margin-bottom: 16px;
+}
+
+.related-video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90px;
+  margin-left: 10px;
+}
+
+.related-video-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  max-width: 250px;
+
+  color: #000000;
+}
+
+.related-video-infos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #515151;
+}
+
+.video-title {
+  font-family: "YouTube Sans", sans-serif;
+  margin-top: 16px;
+}
+
+/* video actions */
+
+.video-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px;
+  margin: 16px 0;
+  gap: 42px;
+
+  width: 908px;
+  height: 42px;
+}
+
+.channel-info {
+  display: flex;
+  gap: 12px;
+}
+
+.channel-logo {
+  width: 42px;
+  height: 42px;
+}
+
+.channel-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.channel-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #515151;
+}
+
+.button-subscribe {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;  
+    width: 159px;
+    height: 40px;
+}
+
+.button-like{
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 63px;
+    height: 24px;
+}
+        
+
+.button-dislike {
+            cursor: pointer;
+            border: none;
+            background: none;
+            outline: none;
+            padding: 0;
+            margin: 0;
+            width: 100px;
+            height: 24px;
+        }
+
+.button-share {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;  
+    width: 115px;
+    height: 24px;
+}
+
+.button-download {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0; 
+    width: 95px;
+    height: 24px;
+}
+
+.video-info {
+  background-color: #f2f2f2;
+  padding: 15px 10px;
+  border-radius: 5%;
+}
+
+.highlighted-info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.video-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #515151;
+}
